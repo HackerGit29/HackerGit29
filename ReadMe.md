@@ -8,16 +8,6 @@
 - **Design & Gestion** : UX/UI avec Figma/Canva, fondements de gestion de projet, tests automatisés.
 - **Durabilité & Sécurité** : Technologies vertes, Azure Security Essentials, ontologies vs bases NoSQL/vectorielles.
 
-## Certifications récentes
-[![Microsoft AI Productivity](https://img.shields.io/badge/Microsoft-Améliorez%20votre%20productivité%20IA-blue?style=for-the-badge&logo=microsofthttps://www.linkedin.com/learning/certificates/9425d696e168139fcb49161d08a8780921c076c906a2c38f5  
-[![Microsoft Human Skills AI](https://img.shields.io/badge/Microsoft-Compétences%20humaines%20IA-green?style=for-the-badge&logohttps://www.linkedin.com/learning/certificates/7c8df18eac87a916cd8d3fb5270bc6000561f40a92cbca5089cd  
-[![LinkedIn Project Management](https://img.shields.io/badge/LinkedIn-Fondements%20Gestion%20Projet-orange?style=for-the-badgehttps://www.linkedin.com/learning/certificates/327d0c74ff1ec2165f927d8f0ac30fe3dd81de19ac6dcba244  
-[![Microsoft Sustainability](https://img.shields.io/badge/Microsoft-Technologies%20Durables-yellow?style=for-the-badge&logohttps://www.linkedin.com/learning/certificates/51bedbd618bcb57bd67bbbdffd6336d15915160f686e37033e3  
-[![Microsoft Developer Prep](https://img.shields.io/badge/Microsoft-Préparer%20Développeur-purple?style=for-the-badge&logohttps://www.linkedin.com/learning/certificates/72ddda8a75aa06a4ed290da26538d902f89669c54cd9ce9f979  
-[![Udemy Canva](https://img.shields.io/badge/Udemy-Canva%20Social%20Media-red?style=for-the-badge&logo=udemyhttps://udemy-certificate.s3.amazonaws.com/image/UC-89bb4c3a-f441-4a24-b76b-7d1f83e32913.jpghttps://img.shields.io/badge/Udemy-Figma%20UI%20UX-teal?style=for-thehttps://udemy-certificate.s3.amazonaws.com/image/UC-8073e844-727d-43  
-[![Udemy React Full-Stack](https://img.shields.io/badge/Udemy-React%20Full%20Stack-pink?style=for-the-badge&logo=udemyhttps://udemy-certificate.s3.amazonaws.com/image/UC-71061320-306e-480  
-[![Udemy Front-End Bootcamp](https://img.shields.io/badge/Udemy-Front%20End%20Bootcamp-lightblue?style=for-the-badge&logohttps://udemy-certificate.s3.amazonaws.com/image/UC-90334e99-b295-43
-
 Actuellement, j'explore les méthodologies de tests automatisés, la sécurité Azure et l'IA embarquée en Flutter pour des apps médicales. Ouvert à des collaborations sur des projets health tech innovants ! 
 
 
