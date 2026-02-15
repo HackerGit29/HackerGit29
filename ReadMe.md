@@ -13,7 +13,7 @@ Actuellement, j’explore le DevOps Azure, Terraform, AWS, la sécurité Azure, 
 - **Management & méthodes** : Gestion de projet (Agile, Scrum, Waterfall), fondements de la business analyse, risques, conformité et gouvernance.
 - **Langues** : Français (langue maternelle/bilingue), Anglais (working proficiency limité).
 
-## 🚀 Mes meilleurs projets
+## Mes meilleurs projets
 
 Voici une sélection de mes projets web déployés, conçus autour de l’IA, du cloud et de la productivité numérique.
 
