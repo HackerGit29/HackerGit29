@@ -13,7 +13,33 @@ Actuellement, j’explore le DevOps Azure, Terraform, AWS, la sécurité Azure, 
 - **Management & méthodes** : Gestion de projet (Agile, Scrum, Waterfall), fondements de la business analyse, risques, conformité et gouvernance.
 - **Langues** : Français (langue maternelle/bilingue), Anglais (working proficiency limité).
 
+## 🚀 Mes meilleurs projets
 
+Voici une sélection de mes projets web déployés, conçus autour de l’IA, du cloud et de la productivité numérique.
+
+- **InfoTek** – Plateforme de veille technologique et d’intelligence pour développeurs africains  
+  🔗 [infotek-app.pages.dev](https://app-afrotek.pages.dev/)
+
+- **AI Destiny** – Plateforme d’automatisation et d’IA pour le workflow  
+  🔗 [ai-destiny.pages.dev](https://ai-destiny.pages.dev/)
+
+- **AI Nise** – Assistant IA pour le développement et la productivité  
+  🔗 [ai-nise.pages.dev](https://ai-nise.pages.dev/)
+
+- **Udineve Cloud** – Solution cloud personnelle pour le stockage et la gestion de fichiers  
+  🔗 [udineve-cloud.pages.dev](https://udineve-cloud.pages.dev/)
+
+- **Quick BZ** – Application de productivité rapide pour petites équipes et freelances  
+  🔗 [quick-bz.pages.dev](https://quick-bz.pages.dev/)
+
+- **Bossa Job** – Plateforme de mise en relation ambition / opportunités  
+  🔗 [bossa-job.pages.dev](https://bossa-job.pages.dev/)
+
+
+- **Decode Dis** – Plateforme de décodage et d’analyse de contenus digitaux  
+  🔗 [decode-dis.pages.dev](https://decode-dis.pages.dev/)
+
+  
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/Mopaossi) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mopaossi) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ben-mombouli) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:benji-akadev@outlook.fr) 
 
