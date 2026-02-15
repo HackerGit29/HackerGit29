@@ -17,26 +17,26 @@ Actuellement, j’explore le DevOps Azure, Terraform, AWS, la sécurité Azure, 
 
 Voici une sélection de mes projets web déployés, conçus autour de l’IA, du cloud et de la productivité numérique.
 
-- **InfoTek** – Plateforme de veille technologique et d’intelligence pour développeurs africains  
+- **InfoTek** – Plateforme de veille technologique et d'e-learning
   🔗 [infotek-app.pages.dev](https://app-afrotek.pages.dev/)
 
-- **AI Destiny** – Plateforme d’automatisation et d’IA pour le workflow  
+- **AI Destiny** – Plateforme de créations et de productivité pour développeurs web
   🔗 [ai-destiny.pages.dev](https://ai-destiny.pages.dev/)
 
-- **AI Nise** – Assistant IA pour le développement et la productivité  
+- **AI Nise** – Assistant IA pour la productivité  
   🔗 [ai-nise.pages.dev](https://ai-nise.pages.dev/)
 
-- **Udineve Cloud** – Solution cloud personnelle pour le stockage et la gestion de fichiers  
+- **Udineve Cloud** – Solution cloud personnelle de génération de miniatures pour vidéos (Instagram, Youtube, TikTok)  
   🔗 [udineve-cloud.pages.dev](https://udineve-cloud.pages.dev/)
 
-- **Quick BZ** – Application de productivité rapide pour petites équipes et freelances  
+- **Quick BZ** – Solution de productivité pour les TPE, PME et particuliers 
   🔗 [quick-bz.pages.dev](https://quick-bz.pages.dev/)
 
 - **Bossa Job** – Plateforme de mise en relation ambition / opportunités  
   🔗 [bossa-job.pages.dev](https://bossa-job.pages.dev/)
 
 
-- **Decode Dis** – Plateforme de décodage et d’analyse de contenus digitaux  
+- **Decode Dis** – Plateforme de d'intégration IA  
   🔗 [decode-dis.pages.dev](https://decode-dis.pages.dev/)
 
   
