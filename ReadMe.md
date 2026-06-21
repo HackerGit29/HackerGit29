@@ -1,134 +1,132 @@
-# Ben Mombouli
+Développeur IA orienté produit, spécialisé dans la conception d’applications pratiques, scalables et utiles.
 
-AI Developer focused on building practical, scalable and product-oriented AI systems.
+Je conçois et déploie des solutions qui combinent ingénierie logicielle, IA appliquée, cloud infrastructure et réflexion produit. Mon approche repose sur un principe simple : la technologie doit réduire la friction, améliorer les workflows et créer une valeur mesurable.
 
-I design and ship applications that combine software engineering, applied AI, cloud infrastructure and product thinking. My work is centered on one principle: technology should reduce friction, improve workflows and create measurable value.
-
-I am currently focused on AI-powered products, developer tools, automation systems and cloud-native applications.
+Je travaille actuellement sur des produits propulsés par l’IA, des outils pour développeurs, des systèmes d’automatisation et des applications cloud-native.
 
 ---
 
-## What I Build
+## Ce que je construis
 
-I build products at the intersection of:
+Je développe des produits à l’intersection de :
 
-- Applied AI and automation
-- Cloud-native web applications
-- Developer productivity tools
-- AI-assisted business workflows
-- Scalable frontend and backend systems
+- l’IA appliquée et l’automatisation ;
+- les applications web cloud-native ;
+- les outils de productivité pour développeurs ;
+- les workflows métier assistés par IA ;
+- les systèmes frontend et backend scalables.
 
-My approach is product-first: I care about clarity, usability, reliability and impact more than technical complexity for its own sake.
-
----
-
-## Current Focus
-
-- Building AI-powered applications and productivity systems
-- Designing workflows around LLMs and automation
-- Exploring Azure AI, cloud security and DevOps practices
-- Improving cloud deployment, CI/CD and Infrastructure as Code
-- Creating useful digital products for real users and business contexts
+Mon approche est product-first : je privilégie la clarté, l’utilisabilité, la fiabilité et l’impact plutôt que la complexité technique inutile.
 
 ---
 
-## Selected Projects
+## Focus actuel
+
+- Développer des applications IA et des systèmes de productivité.
+- Concevoir des workflows autour des LLMs et de l’automatisation.
+- Explorer Azure AI, la sécurité cloud et les pratiques DevOps.
+- Améliorer les déploiements cloud, les pipelines CI/CD et l’Infrastructure as Code.
+- Créer des produits numériques utiles pour des utilisateurs et des contextes business réels.
+
+---
+
+## Projets
 
 ### AI Destiny  
-AI-powered productivity platform for developers and web creators.  
-Designed to help users accelerate ideation, content creation and technical workflows.
+Plateforme de productivité propulsée par l’IA pour développeurs et créateurs web.  
+Conçue pour accélérer l’idéation, la création de contenu et les workflows techniques.
 
 https://ai-destiny.pages.dev/
 
 ---
 
 ### AI Nise  
-Personal AI assistant focused on productivity, task support and daily workflow optimization.
+Assistant IA personnel axé sur la productivité, le support aux tâches et l’optimisation des workflows quotidiens.
 
 https://ai-nise.pages.dev/
 
 ---
 
 ### Udineve Cloud  
-Cloud-based tool for generating thumbnails and visual assets for video platforms such as YouTube, Instagram and TikTok.
+Outil cloud pour générer des miniatures et des visuels destinés aux plateformes vidéo comme YouTube, Instagram et TikTok.
 
 https://udineve-cloud.pages.dev/
 
 ---
 
 ### InfoTek  
-Technology intelligence and e-learning platform built around curated digital knowledge, learning resources and tech exploration.
+Plateforme de veille technologique et d’e-learning autour de la connaissance numérique, des ressources d’apprentissage et de l’exploration tech.
 
 https://app-afrotek.pages.dev/
 
 ---
 
 ### Quick BZ  
-Productivity solution designed for small businesses, entrepreneurs and individuals who need simple digital tools.
+Solution de productivité conçue pour les petites entreprises, les entrepreneurs et les particuliers qui ont besoin d’outils numériques simples.
 
 https://quick-bz.pages.dev/
 
 ---
 
 ### Bossa Job  
-Platform connecting ambition, skills and opportunities through a digital-first experience.
+Plateforme qui connecte ambition, compétences et opportunités à travers une expérience digitale.
 
 https://bossa-job.pages.dev/
 
 ---
 
 ### Decode Dis  
-AI integration platform focused on simplifying and automating digital workflows.
+Plateforme d’intégration IA pensée pour simplifier et automatiser les workflows numériques.
 
 https://decode-dis.pages.dev/
 
 ---
 
-## Technical Strengths
+## Forces techniques
 
-### Applied AI
-Generative AI, prompt engineering, AI workflows, Azure AI, productivity automation, AI-assisted product design.
+### IA appliquée
+IA générative, prompt engineering, workflows IA, Azure AI, automatisation de la productivité, conception de produits assistée par IA.
 
-### Software Engineering
-TypeScript, JavaScript, React, frontend architecture, API integration, web application development.
+### Ingénierie logicielle
+TypeScript, JavaScript, React, architecture frontend, intégration d’API, développement d’applications web.
 
-### Cloud and DevOps
-Azure, AWS fundamentals, GitHub Actions, Docker, Terraform, cloud deployment and CI/CD workflows.
+### Cloud et DevOps
+Azure, bases AWS, GitHub Actions, Docker, Terraform, déploiement cloud et pipelines CI/CD.
 
-### Product and UX
-Product thinking, UX/UI design, Figma, digital strategy, SEO, user-centered execution.
-
----
-
-## Engineering Philosophy
-
-I believe strong engineers are not defined by the number of tools they know, but by their ability to solve meaningful problems with the right level of simplicity.
-
-My priorities when building software are:
-
-- Make the product useful before making it complex
-- Optimize for real user workflows
-- Build systems that are maintainable and scalable
-- Use AI as a practical layer, not as decoration
-- Deliver fast, learn fast and improve continuously
+### Produit et UX
+Product thinking, UX/UI design, Figma, stratégie digitale, SEO, exécution centrée utilisateur.
 
 ---
 
-## Areas I’m Open To
+## Philosophie d’ingénierie
 
-I am interested in opportunities and collaborations around:
+Je pense qu’un bon ingénieur ne se définit pas par le nombre d’outils qu’il connaît, mais par sa capacité à résoudre des problèmes importants avec le bon niveau de simplicité.
 
-- AI product development
-- SaaS and productivity tools
-- Cloud-native applications
-- AI automation workflows
-- Developer tools
-- Web and mobile product engineering
+Mes priorités lorsque je construis un produit :
+
+- rendre le produit utile avant de le rendre complexe ;
+- optimiser les vrais workflows utilisateurs ;
+- construire des systèmes maintenables et scalables ;
+- utiliser l’IA comme un levier pratique, pas comme un élément décoratif ;
+- livrer vite, apprendre vite et améliorer continuellement.
 
 ---
 
-## Connect
+## Opportunités recherchées
 
-LinkedIn: https://linkedin.com/in/ben-mombouli  
-GitHub: https://github.com/HackerGit29  
-Email: benji-akadev@outlook.fr
+Je suis ouvert aux opportunités et collaborations autour de :
+
+- développement de produits IA ;
+- SaaS et outils de productivité ;
+- applications cloud-native ;
+- workflows d’automatisation IA ;
+- outils pour développeurs ;
+- ingénierie produit web et mobile.
+
+---
+
+## Contact
+
+LinkedIn : https://linkedin.com/in/ben-mombouli  
+GitHub : https://github.com/HackerGit29  
+Email : benji-akadev@outlook.fr
