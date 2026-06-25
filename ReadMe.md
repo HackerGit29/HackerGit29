@@ -35,7 +35,7 @@ Mon approche est product-first : je privilégie la clarté, l’utilisabilité, 
 IA générative, prompt engineering, workflows IA, Azure AI, automatisation de la productivité, conception de produits assistée par IA.
 
 ### Ingénierie logicielle
-TypeScript, JavaScript, React, architecture frontend, intégration d’API, développement d’applications web.
+TypeScript, JavaScript, React, architecture frontend, intégration d’API, développement d’applications web et mobile.
 
 ### Cloud et DevOps
 Azure, bases AWS, GitHub Actions, Docker, Terraform, déploiement cloud et pipelines CI/CD.
