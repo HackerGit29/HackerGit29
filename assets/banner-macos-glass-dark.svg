@@ -1,0 +1,155 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Ben Mombouli - Premium macOS glass GitHub banner</title>
+<desc id="desc">Animated glassmorphism GitHub profile header with ASCII micro-animations and a macOS inspired tech dock.</desc>
+<defs>
+  <clipPath id="canvas"><rect width="1180" height="610" rx="34"/></clipPath>
+  <clipPath id="heroClip"><rect x="34" y="34" width="1112" height="542" rx="30"/></clipPath>
+  <clipPath id="terminalClip"><rect x="66" y="72" width="446" height="402" rx="28"/></clipPath>
+  <clipPath id="dockClip"><rect x="572" y="430" width="530" height="104" rx="34"/></clipPath>
+
+  <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".22"/>
+    <stop offset="48%" stop-color="#FFFFFF" stop-opacity=".055"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".55"/>
+    <stop offset="48%" stop-color="#22D3EE" stop-opacity=".58"/>
+    <stop offset="100%" stop-color="#10B981" stop-opacity=".48"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="24s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#22D3EE" stop-opacity=".92"><animate attributeName="stop-color" values="#22D3EE;#7C3AED;#22D3EE" dur="9s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#7C3AED" stop-opacity=".82"><animate attributeName="stop-color" values="#7C3AED;#22D3EE;#7C3AED" dur="9s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="glassReflection" x1="-25%" y1="0%" x2="125%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="42%" stop-color="#FFFFFF" stop-opacity=".075"/>
+    <stop offset="52%" stop-color="#FFFFFF" stop-opacity=".028"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1.15 0;1.15 0;-1.15 0" dur="11s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset=".50" stop-color="#22D3EE" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="violetGlow"><stop offset="0%" stop-color="#7C3AED" stop-opacity=".16"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="cyanGlow"><stop offset="0%" stop-color="#22D3EE" stop-opacity=".14"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="emeraldGlow"><stop offset="0%" stop-color="#10B981" stop-opacity=".10"/><stop offset="100%" stop-color="#10B981" stop-opacity="0"/></radialGradient>
+
+  <filter id="blurXL" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="32"/></filter>
+  <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity=".38"/></filter>
+  <filter id="dockShadow" x="-40%" y="-70%" width="180%" height="240%"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity=".44"/></filter>
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3.8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .018 0"/></filter>
+
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;}
+    .ui{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;}
+    .glass{fill:#0F172A;fill-opacity:.42;stroke:rgba(255,255,255,.08);stroke-width:1;}
+    .glass2{fill:#FFFFFF;fill-opacity:.035;stroke:rgba(255,255,255,.08);stroke-width:1;}
+    .label{fill:#94A3B8;}
+    .text{fill:#F8FAFC;}
+    .dim{fill:#64748B;}
+    .micro{shape-rendering:geometricPrecision;}
+  </style>
+</defs>
+
+<g clip-path="url(#canvas)">
+  <rect width="1180" height="610" fill="#030712"/>
+  <circle cx="138" cy="92" r="280" fill="url(#violetGlow)" filter="url(#blurXL)"><animate attributeName="cx" values="138;186;138" dur="22s" repeatCount="indefinite"/></circle>
+  <circle cx="1020" cy="116" r="300" fill="url(#cyanGlow)" filter="url(#blurXL)"><animate attributeName="cy" values="116;170;116" dur="24s" repeatCount="indefinite"/></circle>
+  <circle cx="848" cy="520" r="260" fill="url(#emeraldGlow)" filter="url(#blurXL)"><animate attributeName="cx" values="848;910;848" dur="26s" repeatCount="indefinite"/></circle>
+  <g opacity=".55">
+    <circle cx="118" cy="535" r="1.15" fill="#22D3EE"><animate attributeName="cy" values="535;62;535" dur="16s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="16s" repeatCount="indefinite"/></circle>
+    <circle cx="298" cy="560" r=".95" fill="#7C3AED"><animate attributeName="cy" values="560;88;560" dur="21s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.42;0" dur="21s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="545" r="1.05" fill="#22D3EE"><animate attributeName="cy" values="545;76;545" dur="18s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.48;0" dur="18s" repeatCount="indefinite"/></circle>
+    <circle cx="895" cy="575" r="1.05" fill="#10B981"><animate attributeName="cy" values="575;94;575" dur="22s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.42;0" dur="22s" repeatCount="indefinite"/></circle>
+    <circle cx="1085" cy="552" r=".95" fill="#22D3EE"><animate attributeName="cy" values="552;82;552" dur="20s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.38;0" dur="20s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect width="1180" height="610" filter="url(#noise)"/>
+  <rect x="1" y="1" width="1178" height="608" rx="33" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity=".38"><animate attributeName="opacity" values=".20;.42;.20" dur="5.5s" repeatCount="indefinite"/></rect>
+</g>
+
+<g filter="url(#cardShadow)">
+  <rect x="34" y="34" width="1112" height="542" rx="30" class="glass"/>
+  <rect x="34" y="34" width="1112" height="542" rx="30" fill="url(#glassReflection)" opacity=".9"/>
+  <rect x="35" y="35" width="1110" height="540" rx="29" fill="none" stroke="url(#hairline)"/>
+</g>
+
+<!-- macOS-like left terminal card -->
+<g filter="url(#cardShadow)">
+  <rect x="66" y="72" width="446" height="402" rx="28" class="glass2"/>
+  <rect x="66" y="72" width="446" height="402" rx="28" fill="url(#glassReflection)" opacity=".75"/>
+  <rect x="66" y="72" width="446" height="44" rx="28" fill="#FFFFFF" fill-opacity=".035"/>
+  <rect x="66" y="98" width="446" height="18" fill="#FFFFFF" fill-opacity=".025"/>
+  <circle cx="92" cy="94" r="5" fill="#FFFFFF" opacity=".18"><animate attributeName="opacity" values=".12;.28;.12" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="112" cy="94" r="5" fill="#FFFFFF" opacity=".16"><animate attributeName="opacity" values=".10;.24;.10" dur="3.8s" begin=".25s" repeatCount="indefinite"/></circle>
+  <circle cx="132" cy="94" r="5" fill="#FFFFFF" opacity=".14"><animate attributeName="opacity" values=".08;.22;.08" dur="3.8s" begin=".5s" repeatCount="indefinite"/></circle>
+  <text x="486" y="98" text-anchor="end" class="mono dim" font-size="11">system.identity</text>
+  <g clip-path="url(#terminalClip)"><rect x="66" y="-130" width="150" height="540" fill="url(#scan)"><animate attributeName="y" values="-130;470" dur="4.2s" repeatCount="indefinite"/></rect></g>
+
+  <g class="mono micro" font-size="12" fill="url(#asciiGrad)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="6.5s" repeatCount="indefinite"/>
+    <text x="106" y="158" opacity="0">     ╭────────────────────╮<animate attributeName="opacity" values="0;1;1;.88" keyTimes="0;.05;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="176" opacity="0">     │  AI PRODUCT CORE   │<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.05;.10;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="194" opacity="0"> ╭───┤  CLOUD WORKFLOWS  ├───╮<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.10;.15;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="212" opacity="0"> │   ╰────────────────────╯   │<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.15;.20;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="230" opacity="0"> │     build → ship → learn   │<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.20;.25;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="248" opacity="0"> ╰────── useful systems ──────╯<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.25;.30;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="284" opacity="0"> ben@github  ~  HackerGit29<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.30;.35;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <text x="106" y="308" opacity="0"> $ design --with clarity<animate attributeName="opacity" values="0;0;1;1;.88" keyTimes="0;.35;.40;.86;1" dur="15s" repeatCount="indefinite"/></text>
+    <rect x="282" y="297" width="8" height="14" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+  </g>
+</g>
+
+<!-- Right hero copy -->
+<g>
+  <clipPath id="helloClip"><rect x="566" y="104" width="0" height="44"><animate attributeName="width" values="0;500" dur="1.7s" begin=".45s" fill="freeze"/></rect></clipPath>
+  <text x="566" y="140" class="ui text" font-size="37" font-weight="760" letter-spacing="-.8" clip-path="url(#helloClip)">Ben Mombouli</text>
+  <rect x="908" y="111" width="2.5" height="32" fill="#22D3EE" opacity=".86"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/><animate attributeName="x" values="566;566;908" keyTimes="0;.25;1" dur="1.7s" begin=".45s" fill="freeze"/></rect>
+  <text x="566" y="178" class="mono label" font-size="15.5" letter-spacing=".2">Développeur IA orienté produit · Cloud-native · Automation</text>
+  <text x="566" y="222" class="ui text" font-size="18" font-weight="520" opacity=".93">Je conçois des applications IA utiles, scalables et élégantes.</text>
+  <text x="566" y="252" class="ui label" font-size="15">Objectif : réduire la friction, améliorer les workflows et créer une valeur mesurable.</text>
+
+  <g class="mono" font-size="13">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.05s" dur=".45s" fill="freeze"/><rect x="566" y="290" width="24" height="24" rx="9" class="glass2"/><image href="icons/location.svg" x="571" y="295" width="14" height="14"/><text x="602" y="307" class="label"><tspan class="text">Location:</tspan> Douala, Cameroun</text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.35s" dur=".45s" fill="freeze"/><rect x="566" y="322" width="24" height="24" rx="9" class="glass2"/><image href="icons/focus.svg" x="571" y="327" width="14" height="14"/><text x="602" y="339" class="label"><tspan class="text">Focus:</tspan> IA appliquée, n8n, cloud et automatisation</text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.65s" dur=".45s" fill="freeze"/><rect x="566" y="354" width="24" height="24" rx="9" class="glass2"/><image href="icons/email.svg" x="571" y="359" width="14" height="14"/><text x="602" y="371" class="label"><tspan class="text">Email:</tspan> benji-akadev@outlook.fr</text></g>
+  </g>
+</g>
+
+<!-- macOS-like floating dock for technologies -->
+<g filter="url(#dockShadow)">
+  <rect x="572" y="430" width="530" height="104" rx="34" fill="#FFFFFF" fill-opacity=".055" stroke="rgba(255,255,255,.10)"/>
+  <rect x="572" y="430" width="530" height="104" rx="34" fill="url(#glassReflection)" opacity=".9"/>
+  <g clip-path="url(#dockClip)"><rect x="572" y="385" width="530" height="110" fill="url(#scan)"><animate attributeName="y" values="385;532;385" dur="6s" repeatCount="indefinite"/></rect></g>
+
+  <g class="mono" font-size="10.5" font-weight="650" fill="#F8FAFC">
+    <g transform="translate(598 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.0s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="598 452;598 448;598 452" dur="5.4s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/azure.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">Azure</text></g>
+    <g transform="translate(666 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.12s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="666 452;666 447;666 452" dur="5.1s" begin=".2s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/docker.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">Docker</text></g>
+    <g transform="translate(734 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.24s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="734 452;734 446;734 452" dur="5.5s" begin=".4s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/n8n.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">n8n</text></g>
+    <g transform="translate(802 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.36s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="802 452;802 447;802 452" dur="5.2s" begin=".6s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/postgresql.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">Postgres</text></g>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.48s" dur=".35s" fill="freeze"/>
+      <g transform="translate(870 444)">
+        <animateTransform attributeName="transform" type="translate" values="870 444;870 438;870 444" dur="4.8s" begin=".8s" repeatCount="indefinite" additive="replace"/>
+        <rect width="74" height="74" rx="22" fill="#FFFFFF" fill-opacity=".058" stroke="url(#accent)" stroke-opacity=".50"/>
+        <g transform="translate(37 37)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite" additive="sum"/>
+          <image href="tech/react.svg" x="-18" y="-18" width="36" height="36"/>
+        </g>
+        <text x="37" y="91" text-anchor="middle" fill="#F8FAFC">React</text>
+      </g>
+    </g>
+
+    <g transform="translate(954 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.60s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="954 452;954 447;954 452" dur="5.3s" begin="1s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/tailwind.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">Tailwind</text></g>
+    <g transform="translate(1022 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.72s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="1022 452;1022 448;1022 452" dur="5.6s" begin="1.2s" repeatCount="indefinite" additive="replace"/><rect width="58" height="58" rx="18" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/typescript.svg" x="15" y="11" width="28" height="28"/><text x="29" y="75" text-anchor="middle" fill="#94A3B8">TS</text></g>
+  </g>
+</g>
+
+<text x="68" y="542" class="mono dim" font-size="11" letter-spacing="1.5">BUILT WITH CLARITY · AUTOMATION · PRODUCT THINKING</text>
+<line x1="68" y1="556" x2="486" y2="556" stroke="rgba(255,255,255,.06)"/>
+<text x="1110" y="556" text-anchor="end" class="mono dim" font-size="11">github.com/HackerGit29</text>
+</svg>

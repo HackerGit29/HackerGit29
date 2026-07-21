@@ -1,0 +1,164 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">HackerGit29 - Clean macOS terminal and iOS widgets banner</title>
+<desc id="desc">Premium dark glassmorphism GitHub banner with a clean four-line macOS terminal, iOS style widgets and a macOS tech dock.</desc>
+<defs>
+  <clipPath id="canvasClip"><rect width="1180" height="610" rx="34"/></clipPath>
+  <clipPath id="terminalBodyClip"><rect x="62" y="112" width="586" height="346" rx="0"/></clipPath>
+  <clipPath id="dockClip"><rect x="710" y="428" width="376" height="104" rx="34"/></clipPath>
+  <clipPath id="weatherClip"><rect x="710" y="74" width="182" height="160" rx="34"/></clipPath>
+
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED" stop-opacity=".38"/>
+    <stop offset="50%" stop-color="#22D3EE" stop-opacity=".44"/>
+    <stop offset="100%" stop-color="#10B981" stop-opacity=".34"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="30s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".22"/>
+    <stop offset="45%" stop-color="#FFFFFF" stop-opacity=".045"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".14"/>
+  </linearGradient>
+  <linearGradient id="glassSweep" x1="-25%" y1="0%" x2="125%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <stop offset="45%" stop-color="#FFFFFF" stop-opacity=".07"/>
+    <stop offset="55%" stop-color="#FFFFFF" stop-opacity=".025"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1.1 0;1.1 0;-1.1 0" dur="12s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="scanline" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+    <stop offset=".52" stop-color="#22D3EE" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="violetGlow"><stop offset="0%" stop-color="#7C3AED" stop-opacity=".13"/><stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="cyanGlow"><stop offset="0%" stop-color="#22D3EE" stop-opacity=".12"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="emeraldGlow"><stop offset="0%" stop-color="#10B981" stop-opacity=".085"/><stop offset="100%" stop-color="#10B981" stop-opacity="0"/></radialGradient>
+  <radialGradient id="sunGlow"><stop offset="0%" stop-color="#FBBF24" stop-opacity=".35"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+
+  <filter id="blurXL" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="34"/></filter>
+  <filter id="glassShadow" x="-45%" y="-45%" width="190%" height="190%"><feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#000000" flood-opacity=".42"/></filter>
+  <filter id="dockShadow" x="-45%" y="-80%" width="190%" height="260%"><feDropShadow dx="0" dy="20" stdDeviation="26" flood-color="#000000" flood-opacity=".46"/></filter>
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="2" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .018 0"/></filter>
+
+  <style>
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace;}
+    .ui{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;}
+    .glass{fill:#0F172A;fill-opacity:.42;stroke:rgba(255,255,255,.08);stroke-width:1;}
+    .glassSoft{fill:#FFFFFF;fill-opacity:.040;stroke:rgba(255,255,255,.09);stroke-width:1;}
+    .terminalBg{fill:#050816;fill-opacity:.68;stroke:rgba(255,255,255,.09);stroke-width:1;}
+    .muted{fill:#94A3B8;}.dim{fill:#64748B;}.white{fill:#F8FAFC;}.green{fill:#34D399;}.cyan{fill:#22D3EE;}.blue{fill:#60A5FA;}.purple{fill:#A78BFA;}.yellow{fill:#FBBF24;}.rose{fill:#FB7185;}.comment{fill:#64748B;}
+  </style>
+</defs>
+
+<g clip-path="url(#canvasClip)">
+  <rect width="1180" height="610" fill="#030712"/>
+  <circle cx="140" cy="98" r="285" fill="url(#violetGlow)" filter="url(#blurXL)"><animate attributeName="cx" values="140;192;140" dur="23s" repeatCount="indefinite"/></circle>
+  <circle cx="1030" cy="126" r="305" fill="url(#cyanGlow)" filter="url(#blurXL)"><animate attributeName="cy" values="126;178;126" dur="25s" repeatCount="indefinite"/></circle>
+  <circle cx="845" cy="522" r="265" fill="url(#emeraldGlow)" filter="url(#blurXL)"><animate attributeName="cx" values="845;910;845" dur="27s" repeatCount="indefinite"/></circle>
+  <g opacity=".50">
+    <circle cx="116" cy="535" r="1.10" fill="#22D3EE"><animate attributeName="cy" values="535;66;535" dur="17s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.5;0" dur="17s" repeatCount="indefinite"/></circle>
+    <circle cx="318" cy="565" r=".95" fill="#7C3AED"><animate attributeName="cy" values="565;86;565" dur="22s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.38;0" dur="22s" repeatCount="indefinite"/></circle>
+    <circle cx="916" cy="575" r="1.05" fill="#10B981"><animate attributeName="cy" values="575;95;575" dur="23s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.40;0" dur="23s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect width="1180" height="610" filter="url(#noise)"/>
+  <rect x="1" y="1" width="1178" height="608" rx="33" fill="none" stroke="url(#accent)" stroke-width="1.2" opacity=".32"><animate attributeName="opacity" values=".16;.36;.16" dur="5.8s" repeatCount="indefinite"/></rect>
+</g>
+
+<g filter="url(#glassShadow)">
+  <rect x="34" y="34" width="1112" height="542" rx="32" class="glass"/>
+  <rect x="34" y="34" width="1112" height="542" rx="32" fill="url(#glassSweep)" opacity=".86"/>
+  <rect x="35" y="35" width="1110" height="540" rx="31" fill="none" stroke="url(#hairline)"/>
+</g>
+
+<!-- CLEAN 4-LINE TERMINAL -->
+<g filter="url(#glassShadow)">
+  <rect x="62" y="64" width="586" height="394" rx="28" class="terminalBg"/>
+  <rect x="62" y="64" width="586" height="394" rx="28" fill="url(#glassSweep)" opacity=".62"/>
+  <rect x="62" y="64" width="586" height="48" rx="28" fill="#FFFFFF" fill-opacity=".038"/>
+  <rect x="62" y="94" width="586" height="18" fill="#FFFFFF" fill-opacity=".024"/>
+  <circle cx="90" cy="88" r="5.3" fill="#FF5F57" opacity=".70"><animate attributeName="opacity" values=".48;.78;.48" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="111" cy="88" r="5.3" fill="#FFBD2E" opacity=".66"><animate attributeName="opacity" values=".44;.72;.44" dur="4s" begin=".35s" repeatCount="indefinite"/></circle>
+  <circle cx="132" cy="88" r="5.3" fill="#28C840" opacity=".66"><animate attributeName="opacity" values=".44;.72;.44" dur="4s" begin=".7s" repeatCount="indefinite"/></circle>
+  <g clip-path="url(#terminalBodyClip)"><rect x="62" y="-120" width="170" height="480" fill="url(#scanline)"><animate attributeName="y" values="-120;458" dur="4.6s" repeatCount="indefinite"/></rect></g>
+
+  <g class="mono" font-size="15">
+    <text x="92" y="158"><tspan class="green">ben</tspan><tspan class="dim">@</tspan><tspan class="cyan">mac</tspan><tspan class="dim">:</tspan><tspan class="purple">~/agent</tspan><tspan class="dim">$</tspan></text>
+    <clipPath id="cmd1"><rect x="232" y="139" width="0" height="24"><animate attributeName="width" values="0;305" dur="1.55s" begin=".55s" fill="freeze"/></rect></clipPath>
+    <text x="232" y="158" clip-path="url(#cmd1)"><tspan class="blue">pnpm</tspan><tspan class="white"> dev </tspan><tspan class="yellow">--filter</tspan><tspan class="green"> ai-agent</tspan></text>
+    <rect x="537" y="143" width="7" height="17" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".86s" repeatCount="indefinite"/><animate attributeName="x" values="232;232;537" keyTimes="0;.25;1" dur="1.55s" begin=".55s" fill="freeze"/></rect>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.25s" dur=".18s" fill="freeze"/>
+      <text x="92" y="214"><tspan class="green">✓</tspan><tspan class="muted"> routes</tspan><tspan class="dim"> · </tspan><tspan class="green">✓</tspan><tspan class="muted"> prompts</tspan><tspan class="dim"> · </tspan><tspan class="green">✓</tspan><tspan class="muted"> workflow ready</tspan></text>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="2.85s" dur=".18s" fill="freeze"/>
+      <text x="92" y="270"><tspan class="green">ben</tspan><tspan class="dim">@</tspan><tspan class="cyan">mac</tspan><tspan class="dim">:</tspan><tspan class="purple">~/agent</tspan><tspan class="dim">$</tspan></text>
+      <clipPath id="cmd2"><rect x="232" y="251" width="0" height="24"><animate attributeName="width" values="0;286" dur="1.45s" begin="2.95s" fill="freeze"/></rect></clipPath>
+      <text x="232" y="270" clip-path="url(#cmd2)"><tspan class="blue">docker</tspan><tspan class="white"> compose up </tspan><tspan class="yellow">-d</tspan></text>
+      <rect x="408" y="255" width="7" height="17" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur=".86s" repeatCount="indefinite"/><animate attributeName="x" values="232;232;408" keyTimes="0;.2;1" dur="1.45s" begin="2.95s" fill="freeze"/></rect>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="4.6s" dur=".18s" fill="freeze"/>
+      <text x="92" y="326"><tspan class="green">✓</tspan><tspan class="muted"> n8n</tspan><tspan class="dim"> · </tspan><tspan class="green">✓</tspan><tspan class="muted"> postgres</tspan><tspan class="dim"> · </tspan><tspan class="green">✓</tspan><tspan class="muted"> azure pipeline</tspan></text>
+    </g>
+  </g>
+</g>
+
+<!-- iOS STYLE WIDGETS, NO BLABLA -->
+<g filter="url(#glassShadow)">
+  <!-- Weather widget -->
+  <rect x="710" y="74" width="182" height="160" rx="34" class="glassSoft"/>
+  <rect x="710" y="74" width="182" height="160" rx="34" fill="url(#glassSweep)" opacity=".9"/>
+  <g clip-path="url(#weatherClip)">
+    <circle cx="844" cy="108" r="54" fill="url(#sunGlow)" filter="url(#blurXL)"><animate attributeName="cx" values="844;856;844" dur="10s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle cx="796" cy="126" r="28" fill="#FBBF24" opacity=".88" filter="url(#softGlow)"><animate attributeName="opacity" values=".72;.95;.72" dur="4s" repeatCount="indefinite"/></circle>
+  <path d="M760 164c0-16 13-29 29-29 11 0 20 6 25 15 4-2 9-4 14-4 15 0 27 12 27 27 0 2 0 4-.4 6H760c0-5 0-9 0-15Z" fill="#FFFFFF" fill-opacity=".72"/>
+  <text x="740" y="212" class="ui white" font-size="34" font-weight="760">28°</text>
+  <text x="830" y="212" class="mono muted" font-size="12">soft</text>
+
+  <!-- Activity widget -->
+  <rect x="914" y="74" width="172" height="160" rx="34" class="glassSoft"/>
+  <rect x="914" y="74" width="172" height="160" rx="34" fill="url(#glassSweep)" opacity=".8"/>
+  <g transform="translate(1000 154)">
+    <circle r="54" fill="none" stroke="#FFFFFF" stroke-opacity=".07" stroke-width="12"/>
+    <circle r="54" fill="none" stroke="#22D3EE" stroke-opacity=".72" stroke-width="12" stroke-linecap="round" stroke-dasharray="250 90" transform="rotate(-90)"><animateTransform attributeName="transform" type="rotate" values="-90;-70;-90" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="35" fill="none" stroke="#FFFFFF" stroke-opacity=".07" stroke-width="10"/>
+    <circle r="35" fill="none" stroke="#7C3AED" stroke-opacity=".70" stroke-width="10" stroke-linecap="round" stroke-dasharray="145 75" transform="rotate(-110)"><animateTransform attributeName="transform" type="rotate" values="-110;-88;-110" dur="6s" repeatCount="indefinite"/></circle>
+    <circle r="18" fill="none" stroke="#10B981" stroke-opacity=".65" stroke-width="8" stroke-linecap="round" stroke-dasharray="72 45" transform="rotate(-130)"><animateTransform attributeName="transform" type="rotate" values="-130;-100;-130" dur="5.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Mini automation widget -->
+  <rect x="710" y="254" width="376" height="118" rx="34" class="glassSoft"/>
+  <rect x="710" y="254" width="376" height="118" rx="34" fill="url(#glassSweep)" opacity=".84"/>
+  <g transform="translate(752 312)">
+    <circle cx="0" cy="0" r="9" fill="#22D3EE" opacity=".85"><animate attributeName="opacity" values=".45;.95;.45" dur="2.6s" repeatCount="indefinite"/></circle>
+    <path d="M18 0H82" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="100" cy="0" r="9" fill="#A78BFA" opacity=".85"><animate attributeName="opacity" values=".45;.95;.45" dur="2.6s" begin=".4s" repeatCount="indefinite"/></circle>
+    <path d="M118 0H182" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="200" cy="0" r="9" fill="#10B981" opacity=".85"><animate attributeName="opacity" values=".45;.95;.45" dur="2.6s" begin=".8s" repeatCount="indefinite"/></circle>
+    <path d="M218 0H282" stroke="#FFFFFF" stroke-opacity=".18" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="300" cy="0" r="9" fill="#F8FAFC" opacity=".75"><animate attributeName="opacity" values=".38;.85;.38" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+  <g class="mono" font-size="11" fill="#94A3B8">
+    <text x="742" y="348">n8n</text><text x="842" y="348">api</text><text x="942" y="348">db</text><text x="1040" y="348">ship</text>
+  </g>
+</g>
+
+<!-- macOS-like tech dock -->
+<g filter="url(#dockShadow)">
+  <rect x="710" y="428" width="376" height="104" rx="34" fill="#FFFFFF" fill-opacity=".055" stroke="rgba(255,255,255,.10)"/>
+  <rect x="710" y="428" width="376" height="104" rx="34" fill="url(#glassSweep)" opacity=".86"/>
+  <g clip-path="url(#dockClip)"><rect x="710" y="380" width="376" height="116" fill="url(#scanline)"><animate attributeName="y" values="380;534;380" dur="6.4s" repeatCount="indefinite"/></rect></g>
+  <g class="mono" font-size="10.4" font-weight="650" fill="#F8FAFC">
+    <g transform="translate(730 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.05s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="730 452;730 448;730 452" dur="5.4s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/azure.svg" x="11" y="10" width="26" height="26"/></g>
+    <g transform="translate(780 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.17s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="780 452;780 447;780 452" dur="5.1s" begin=".2s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/docker.svg" x="11" y="10" width="26" height="26"/></g>
+    <g transform="translate(830 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.29s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="830 452;830 446;830 452" dur="5.5s" begin=".4s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/n8n.svg" x="11" y="10" width="26" height="26"/></g>
+    <g transform="translate(880 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.41s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="880 452;880 447;880 452" dur="5.2s" begin=".6s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/postgresql.svg" x="11" y="10" width="26" height="26"/></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" begin="3.53s" dur=".35s" fill="freeze"/><g transform="translate(930 443)"><animateTransform attributeName="transform" type="translate" values="930 443;930 437;930 443" dur="4.8s" begin=".8s" repeatCount="indefinite" additive="replace"/><rect width="66" height="66" rx="21" fill="#FFFFFF" fill-opacity=".060" stroke="url(#accent)" stroke-opacity=".54"/><g transform="translate(33 33)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8.5s" repeatCount="indefinite" additive="sum"/><image href="tech/react.svg" x="-17" y="-17" width="34" height="34"/></g></g></g>
+    <g transform="translate(1004 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.65s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="1004 452;1004 447;1004 452" dur="5.3s" begin="1s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/tailwind.svg" x="11" y="10" width="26" height="26"/></g>
+    <g transform="translate(1054 452)" opacity="0"><animate attributeName="opacity" values="0;1" begin="3.77s" dur=".35s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="1054 452;1054 448;1054 452" dur="5.6s" begin="1.2s" repeatCount="indefinite" additive="replace"/><rect width="48" height="48" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="rgba(255,255,255,.11)"/><image href="tech/typescript.svg" x="11" y="10" width="26" height="26"/></g>
+  </g>
+</g>
+</svg>
