@@ -1,5 +1,3 @@
-# Ben Mombouli
-
 AI Product Engineer building practical, scalable, and user-focused software.
 
 I design and ship solutions at the intersection of **applied AI**, **software engineering**, and **cloud infrastructure**.
@@ -34,5 +32,5 @@ I design and ship solutions at the intersection of **applied AI**, **software en
 ## Contact
 
 - LinkedIn: https://linkedin.com/in/ben-mombouli
-- GitHub: https://github.com/HackerGit29
-- Email: benji-akadev@outlook.fr
+- Website: https://benji-aka-dev.site
+
